@@ -20,7 +20,7 @@ $ python -m Brainly
 ```
 
 # Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nekozu/Brainly-Telebot.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/inu93/Brainly-Telebot.git)
 
 # Support 
 Jika repository error/ngebug, Lapor ke [Bot](https://t.me/nekozusupportbot)
