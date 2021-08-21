@@ -20,14 +20,14 @@ async def inline_query_handler(client, query):
         await client.answer_inline_query(query.id,
             results=[
                 InlineQueryResultPhoto(
-                    caption="Halo! Cari Mau Cari Jawaban Diinline Ya? Pilih Tombol Dibawah",
+                    caption="Halo!Mau Cari Jawaban Diinline Ya? Pilih Tombol Dibawah",
                     photo_url="https://telegra.ph/file/9dfdfffd59fc5ab836468.jpg",
                     parse_mode="markdown",
                     title=f"Bantuan",
                     description=f"Pencet disini..",
                     reply_markup=InlineKeyboardMarkup(
                         [[
-                        InlineKeyboardButton("Channel Bot", url="https://t.me/nekozu"),
+                        InlineKeyboardButton("Owner Bot", url="https://t.me/ebnudoang"),
                         InlineKeyboardButton(text="Cari", switch_inline_query_current_chat="cari")
                         ]]
                     )
